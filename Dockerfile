@@ -32,6 +32,9 @@ RUN apt install libvpx-dev -y
 RUN apt install libffi-dev -y
 RUN apt install libssl-dev -y
 RUN apt install libopencv-dev -y
+RUN apt install pkg-config -y
+RUN apt install libavdevice-dev -y
+RUN apt install libavfilter-dev  -y
 
 #
 # -- aiortc --
